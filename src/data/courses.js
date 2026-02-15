@@ -1,0 +1,110 @@
+export const courses = [
+    {
+        id: 1,
+        title: 'Full Stack Web Development with React',
+        description: 'Master modern web development using React, Node.js, Express, and MongoDB. Build real-world projects and get ready for a career as a Full Stack Developer.',
+        image: '/assets/images/course-1.jpg',
+        category: 'Web Development',
+        rating: 4.8,
+        reviews: 120,
+        duration: '24h 30m',
+        instructor: 'John Doe',
+        instructorImage: 'https://randomuser.me/api/portraits/men/1.jpg',
+        plans: [
+            { name: 'Free', duration: '7 Days Trial', price: 0, features: ['Access to first 2 modules', 'Community Support'] },
+            { name: '3 Months', duration: '3 Months Access', price: 49.99, features: ['Full Course Access', 'Project Reviews', 'Certificate of Completion'] },
+            { name: '6 Months', duration: '6 Months Access', price: 89.99, features: ['Everything in 3 Months', '1-on-1 Mentorship', 'Career Guidance'] },
+            { name: '1 Year', duration: '1 Year Access', price: 149.99, features: ['Everything in 6 Months', 'Lifetime Updates', 'Downloadable Resources'] },
+        ]
+    },
+    {
+        id: 2,
+        title: 'Data Science Bootcamp 2024',
+        description: 'Learn Python, Pandas, NumPy, Matplotlib, and Machine Learning algorithms. From zero to hero in Data Science.',
+        image: '/assets/images/course-2.jpg',
+        category: 'Data Science',
+        rating: 4.9,
+        reviews: 85,
+        duration: '32h 15m',
+        instructor: 'Jane Smith',
+        instructorImage: 'https://randomuser.me/api/portraits/women/2.jpg',
+        plans: [
+            { name: 'Free', duration: '7 Days Trial', price: 0, features: ['Access to Python Basics', 'Community Support'] },
+            { name: '3 Months', duration: '3 Months Access', price: 59.99, features: ['Full Course Access', 'Project Reviews', 'Certificate'] },
+            { name: '6 Months', duration: '6 Months Access', price: 99.99, features: ['Everything in 3 Months', 'Weekly Live Q&A', 'Resume Review'] },
+            { name: '1 Year', duration: '1 Year Access', price: 179.99, features: ['Everything in 6 Months', 'Job Placement Support', 'Offline Access'] },
+        ]
+    },
+    {
+        id: 3,
+        title: 'Ethical Hacking & Cyber Security',
+        description: 'Become a certified ethical hacker. Learn penetration testing, network security, and how to defend against cyber attacks.',
+        image: '/assets/images/course-3.jpg',
+        category: 'Cyber Security',
+        rating: 4.7,
+        reviews: 200,
+        duration: '18h 45m',
+        instructor: 'Mike Johnson',
+        instructorImage: 'https://randomuser.me/api/portraits/men/3.jpg',
+        plans: [
+            { name: 'Free', duration: '7 Days Trial', price: 0, features: ['Intro to Cybersecurity', 'Community Forum'] },
+            { name: '3 Months', duration: '3 Months Access', price: 69.99, features: ['Full Lab Access', 'Certification Prep', 'exam Voucher discount'] },
+            { name: '6 Months', duration: '6 Months Access', price: 119.99, features: ['Everything in 3 Months', 'Advanced CTF Challenges', 'Mentor Chat'] },
+            { name: '1 Year', duration: '1 Year Access', price: 199.99, features: ['Everything in 6 Months', 'Private Hacking Community', 'Career Coaching'] },
+        ]
+    },
+    {
+        id: 4,
+        title: 'Cloud Computing with AWS',
+        description: 'Prepare for AWS Solutions Architect Associate certification with hands-on labs.',
+        image: '/assets/images/hero-bg.jpg',
+        category: 'Cloud Computing',
+        rating: 4.8,
+        reviews: 95,
+        duration: '28h 00m',
+        instructor: 'Sarah Wilson',
+        instructorImage: 'https://randomuser.me/api/portraits/women/4.jpg',
+        plans: [
+            { name: 'Free', duration: '5 Days Trial', price: 0, features: ['AWS Basics', 'Community Support'] },
+            { name: '3 Months', duration: '3 Months Access', price: 59.99, features: ['Full Course Access', 'AWS Sandbox', 'Certificate'] },
+            { name: '6 Months', duration: '6 Months Access', price: 109.99, features: ['Everything in 3 Months', 'Mock Exams', 'Architecture Reviews'] },
+            { name: '1 Year', duration: '1 Year Access', price: 189.99, features: ['Everything in 6 Months', 'Exam Pass Guarantee', '1-on-1 Coaching'] },
+        ]
+    },
+    {
+        id: 5,
+        title: 'DevOps: CI/CD with Jenkins & Docker',
+        description: 'Learn to automate software delivery with Jenkins, Docker, and Kubernetes.',
+        image: '/assets/images/hero-bg.jpg',
+        category: 'DevOps',
+        rating: 4.6,
+        reviews: 60,
+        duration: '15h 30m',
+        instructor: 'David Brown',
+        instructorImage: 'https://randomuser.me/api/portraits/men/5.jpg',
+        plans: [
+            { name: 'Free', duration: '7 Days Trial', price: 0, features: ['Access to Docker basics', 'Community Support'] },
+            { name: '3 Months', duration: '3 Months Access', price: 49.99, features: ['Full Course Access', 'Project Reviews', 'Certificate'] },
+            { name: '6 Months', duration: '6 Months Access', price: 89.99, features: ['Everything in 3 Months', 'Kubernetes Deep Dive', 'Career Guidance'] },
+            { name: '1 Year', duration: '1 Year Access', price: 149.99, features: ['Everything in 6 Months', 'Lifetime Updates', 'Private Slack Channel'] },
+        ]
+    },
+    {
+        id: 6,
+        title: 'Mobile App Development with Flutter',
+        description: 'Build native iOS and Android apps with a single codebase using Flutter.',
+        image: '/assets/images/hero-bg.jpg',
+        category: 'Mobile Dev',
+        rating: 4.9,
+        reviews: 150,
+        duration: '40h 00m',
+        instructor: 'Emily Davis',
+        instructorImage: 'https://randomuser.me/api/portraits/women/6.jpg',
+        plans: [
+            { name: 'Free', duration: '7 Days Trial', price: 0, features: ['Dart Basics', 'Community Support'] },
+            { name: '3 Months', duration: '3 Months Access', price: 54.99, features: ['Full Course Access', 'App Store Deployment Guide', 'Certificate'] },
+            { name: '6 Months', duration: '6 Months Access', price: 99.99, features: ['Everything in 3 Months', 'Advanced State Management', 'Code Review'] },
+            { name: '1 Year', duration: '1 Year Access', price: 169.99, features: ['Everything in 6 Months', 'Freelancing Guide', 'Portfolio Building'] },
+        ]
+    }
+];
