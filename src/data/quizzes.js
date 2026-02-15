@@ -110,5 +110,53 @@ export const quizzes = [
                 aiExplanation: "Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud."
             }
         ]
+    },
+    {
+        id: 6,
+        title: "DevOps Methodology",
+        courseId: 5,
+        description: "Understand the culture and tools of DevOps.",
+        questions: [
+            {
+                id: 1,
+                text: "What is the main goal of CI/CD?",
+                options: ["To slow down deployment", "To automate software delivery", "To manual test every code change", "To reduce code quality"],
+                correctAnswer: 1,
+                aiHint: "It stands for Continuous Integration and Continuous Delivery.",
+                aiExplanation: "CI/CD bridges the gaps between development and operation activities and teams by enforcing automation in building, testing and deployment of applications."
+            },
+            {
+                id: 2,
+                text: "Which tool is commonly used for containerization?",
+                options: ["Jenkins", "Docker", "Git", "Nagios"],
+                correctAnswer: 1,
+                aiHint: "Its logo is a whale carrying containers.",
+                aiExplanation: "Docker is a platform designed to help developers build, share, and run modern applications. It handles the tedious setup, so you can focus on the code."
+            }
+        ]
+    },
+    {
+        id: 7,
+        title: "Mobile Dev with Flutter",
+        courseId: 6,
+        description: "Basics of cross-platform mobile development.",
+        questions: [
+            {
+                id: 1,
+                text: "What language is Flutter based on?",
+                options: ["Java", "Kotlin", "Dart", "Swift"],
+                correctAnswer: 2,
+                aiHint: "It was developed by Google and shares a name with a fast movement.",
+                aiExplanation: "Flutter uses the Dart programming language, also developed by Google, which allows for compilation to native code for high performance."
+            },
+            {
+                id: 2,
+                text: "What is a Widget in Flutter?",
+                options: ["A small app", "The basic building block of the UI", "A database connector", "A testing tool"],
+                correctAnswer: 1,
+                aiHint: "In Flutter, 'Everything is a ...'",
+                aiExplanation: "In Flutter, almost everything is a widget. Widgets describe what their view should look like given their current configuration and state."
+            }
+        ]
     }
 ];
