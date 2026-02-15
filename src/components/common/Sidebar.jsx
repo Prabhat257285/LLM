@@ -27,12 +27,14 @@ const Sidebar = () => {
             { name: 'Dashboard', path: '/teacher/dashboard', icon: LayoutDashboard },
             { name: 'Create Course', path: '/teacher/create-course', icon: PlusCircle },
             { name: 'Manage Courses', path: '/teacher/courses', icon: BookOpen },
+            { name: 'Quiz Management', path: '/teacher/quizzes', icon: FileText },
             { name: 'Profile', path: '/teacher/profile', icon: User },
         ],
         admin: [
             { name: 'Dashboard', path: '/admin/dashboard', icon: LayoutDashboard },
             { name: 'Manage Users', path: '/admin/users', icon: Users },
             { name: 'Manage Courses', path: '/admin/courses', icon: BookOpen },
+            { name: 'Quiz Analytics', path: '/admin/quizzes', icon: FileText },
             { name: 'Reports', path: '/admin/reports', icon: FileText },
         ]
     };

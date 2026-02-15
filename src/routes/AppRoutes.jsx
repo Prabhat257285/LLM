@@ -8,6 +8,7 @@ import CoursesPage from '../pages/CoursesPage';
 import CourseDetailsPage from '../pages/CourseDetailsPage';
 import LoginPage from '../pages/LoginPage';
 import RegisterPage from '../pages/RegisterPage';
+import PublicQuizzesPage from '../pages/PublicQuizzesPage';
 import StudentDashboard from '../pages/dashboard/StudentDashboard';
 import StudentCourses from '../pages/dashboard/StudentCourses';
 import StudentProfile from '../pages/dashboard/StudentProfile';
@@ -16,10 +17,12 @@ import QuizPage from '../pages/dashboard/QuizPage';
 import TeacherDashboard from '../pages/dashboard/TeacherDashboard';
 import TeacherCreateCourse from '../pages/dashboard/TeacherCreateCourse';
 import TeacherCourses from '../pages/dashboard/TeacherCourses';
+import TeacherQuizzes from '../pages/dashboard/TeacherQuizzes';
 
 import AdminDashboard from '../pages/dashboard/AdminDashboard';
 import AdminUsers from '../pages/dashboard/AdminUsers';
 import AdminCourses from '../pages/dashboard/AdminCourses';
+import AdminQuizzes from '../pages/dashboard/AdminQuizzes';
 
 const AppRoutes = () => {
     return (
@@ -29,6 +32,7 @@ const AppRoutes = () => {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/courses" element={<CoursesPage />} />
                 <Route path="/courses/:id" element={<CourseDetailsPage />} />
+                <Route path="/quizzes" element={<PublicQuizzesPage />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
             </Route>
@@ -50,6 +54,7 @@ const AppRoutes = () => {
                     <Route path="/teacher/dashboard" element={<TeacherDashboard />} />
                     <Route path="/teacher/create-course" element={<TeacherCreateCourse />} />
                     <Route path="/teacher/courses" element={<TeacherCourses />} />
+                    <Route path="/teacher/quizzes" element={<TeacherQuizzes />} />
                     <Route path="/teacher/profile" element={<StudentProfile />} /> {/* Reusing Profile for now */}
                 </Route>
 
@@ -58,6 +63,7 @@ const AppRoutes = () => {
                     <Route path="/admin/dashboard" element={<AdminDashboard />} />
                     <Route path="/admin/users" element={<AdminUsers />} />
                     <Route path="/admin/courses" element={<AdminCourses />} />
+                    <Route path="/admin/quizzes" element={<AdminQuizzes />} />
                 </Route>
 
             </Route>
