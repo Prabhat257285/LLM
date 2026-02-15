@@ -19,6 +19,7 @@ const Sidebar = () => {
         student: [
             { name: 'Overview', path: '/student/dashboard', icon: LayoutDashboard },
             { name: 'My Courses', path: '/student/courses', icon: BookOpen },
+            { name: 'Quizzes', path: '/student/quizzes', icon: FileText },
             { name: 'Profile', path: '/student/profile', icon: User },
             { name: 'Change Password', path: '/student/settings', icon: Settings },
         ],

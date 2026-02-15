@@ -11,6 +11,8 @@ import RegisterPage from '../pages/RegisterPage';
 import StudentDashboard from '../pages/dashboard/StudentDashboard';
 import StudentCourses from '../pages/dashboard/StudentCourses';
 import StudentProfile from '../pages/dashboard/StudentProfile';
+import StudentQuizzes from '../pages/dashboard/StudentQuizzes';
+import QuizPage from '../pages/dashboard/QuizPage';
 import TeacherDashboard from '../pages/dashboard/TeacherDashboard';
 import TeacherCreateCourse from '../pages/dashboard/TeacherCreateCourse';
 import TeacherCourses from '../pages/dashboard/TeacherCourses';
@@ -39,6 +41,8 @@ const AppRoutes = () => {
                     <Route path="/student/dashboard" element={<StudentDashboard />} />
                     <Route path="/student/courses" element={<StudentCourses />} />
                     <Route path="/student/profile" element={<StudentProfile />} />
+                    <Route path="/student/quizzes" element={<StudentQuizzes />} />
+                    <Route path="/student/quiz/:quizId" element={<QuizPage />} />
                 </Route>
 
                 {/* Teacher Routes */}
